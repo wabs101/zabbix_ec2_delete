@@ -54,3 +54,5 @@ if zabbix_hosts_ids_to_delete:
     print("These hosts will be deleted from Zabbix: {0}".format(zabbix_hosts_ids_to_delete))
 else:
     print("Nothing to remove")
+    print("I found these {0}".format(ec2_active_instances_IPs))
+    print("I found these too {0}".format(zabbix_unavailable_hosts_IPs))
