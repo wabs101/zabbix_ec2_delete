@@ -1,2 +1,2 @@
 boto==2.49.0
-zabbix-api==0.5.3
+zabbix-api==0.5.4
