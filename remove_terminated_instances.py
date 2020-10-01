@@ -52,6 +52,5 @@ for hostid in zabbix_hosts_ids_IPs:
 
 if zabbix_hosts_ids_to_delete:
     print("These hosts will be deleted from Zabbix: {0}".format(zabbix_hosts_ids_to_delete))
-    zapi.host.delete(zabbix_hosts_ids_to_delete)
 else:
     print("Nothing to remove")
